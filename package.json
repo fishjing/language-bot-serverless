@@ -2,7 +2,6 @@
   "name": "language-bot",
   "version": "1.0.0",
   "description": "A slack bot to automatically flag non-inclusive words and phrases and make alternate suggestions.",
-  "main": "app.js",
   "scripts": {
     "dev": "serverless offline --noPrependStageInUrl",
     "deploy": "serverless deploy",
