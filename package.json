@@ -1,0 +1,20 @@
+{
+  "name": "language-bot",
+  "version": "1.0.0",
+  "description": "A slack bot to automatically flag non-inclusive words and phrases and make alternate suggestions.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "serverless offline --noPrependStageInUrl",
+    "deploy": "serverless deploy",
+    "test": "jest"
+  },
+  "author": "Jing Yu",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.3.0",
+    "@vendia/serverless-express": "^4.3.7"
+  },
+  "devDependencies": {
+    "serverless-offline": "^7.0.0"
+  }
+}
